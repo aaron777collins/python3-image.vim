@@ -3,7 +3,7 @@ View images in Vim, because Vim is awesome!
 
 ![](https://github.com/ashisha/image.vim/blob/master/screenshot/image.vim.jpg)
 
-***Note that this repo is based on [https://github.com/ashisha/image.vim](https://github.com/ashisha/image.vim) and was simply updated to python3***
+***Note: This repo is based on [https://github.com/ashisha/image.vim](https://github.com/ashisha/image.vim) and was simply updated to python3.***
 
 Features
 =========
