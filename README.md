@@ -3,7 +3,7 @@ View images in Vim, because Vim is awesome!
 
 ![](https://github.com/ashisha/image.vim/blob/master/screenshot/image.vim.jpg)
 
-
+***Note: This repo is based on [https://github.com/ashisha/image.vim](https://github.com/ashisha/image.vim) and was simply updated to python3.***
 
 Features
 =========
@@ -17,7 +17,8 @@ Requirements
   
   `vim --version | grep python`
 
-  If you see `+python`, your Vim has python support. If not, figure out how to get one.
+  If you see `+python3`, your Vim has python3 support. If not, figure out how to get one.
+  (See [https://github.com/ashisha/image.vim](https://github.com/ashisha/image.vim) for python 2 support)
 
 * Also needs the Python library PIL. You can install PIL using `pip install Pillow`
 
