@@ -9,8 +9,7 @@ au BufRead *.png,*.jpg,*.jpeg :call DisplayImage()
 
 function! DisplayImage()
 set nowrap
-python << EOF
-from __future__ import division
+python3 << EOF
 import vim
 from PIL import Image
 
@@ -63,7 +62,7 @@ def getAsciiImage(imageFile, maxWidth, maxHeight):
         vim.current.buffer.append(asciiImage)
 
     return asciiImage
-    
+
 vim.command("let imagefile = expand('%:p')")
 imagefile = vim.eval("imagefile")
 
