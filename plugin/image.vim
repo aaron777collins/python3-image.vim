@@ -39,7 +39,7 @@ def getAsciiImage(imageFile, maxWidth, maxHeight):
     img = img.resize((scaledWidth, scaledHeight))
     pixels = img.load()
 
-    colorPalette = "@%#*+=-:. "
+    colorPalette = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
     lencolor = len(colorPalette)
 
     # Delete the current buffer so that we dont overwrite the real image file
