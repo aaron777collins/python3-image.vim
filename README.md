@@ -9,12 +9,13 @@ Features
 =========
 * Let's you open (preview) images in Vim!
 * It's safe, never modifies the original image (unless you force write)
+* Added higher quality images than the [original](https://github.com/ashisha/image.vim) plugin
 
 
 Requirements
 ============
 * Vim with *python* support. You can verify if your Vim is compiled with python using:
-  
+
   `vim --version | grep python`
 
   If you see `+python3`, your Vim has python3 support. If not, figure out how to get one.
